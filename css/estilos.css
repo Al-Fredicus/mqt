@@ -1,0 +1,57 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+    background: url(../img/fondo.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+	font-family: 'Spartan';
+}
+
+
+.logo li {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    margin: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.logo li a {
+    color: #fff;
+    text-decoration: none;
+    margin: 10px;
+    display: flex;
+}
+
+.logo li a img{
+    width: 90px;
+    margin-right: 10px;
+}
+
+.logo li a .texto {
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.uno {
+    font-size: 22px;
+}
+.dos {
+    font-size: 14.75px;
+}
+
+.negrita{
+    font-weight: bold;
+}
